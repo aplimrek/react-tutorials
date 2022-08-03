@@ -6,6 +6,7 @@ export const AppContainer = styled.div``;
 export const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 20px 5%;
 `;
 
 export const HeaderContainer = styled.div`

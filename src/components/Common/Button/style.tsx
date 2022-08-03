@@ -16,11 +16,11 @@ export const ButtonContainer = styled.div`
   cursor: pointer;
   &:hover {
     background-color: ${({ hoverColor, outlined }: { color: string; outlined: boolean; hoverColor: string }) =>
-      outlined ? "#c8c8c8" : hoverColor};
+      outlined ? "#fff" : hoverColor};
     border: ${({ hoverColor, outlined }: { color: string; outlined: boolean; hoverColor: string }) =>
       outlined ? `1px solid ${hoverColor}` : null};
     border-radius: 10px;
     color: ${({ hoverColor, outlined }: { color: string; outlined: boolean; hoverColor: string }) =>
-      outlined ? hoverColor : "#c8c8c8"};
+      outlined ? hoverColor : "#fff"};
   }
 `;
